@@ -1,0 +1,42 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+--no-fonts
+-encoding
+'UTF-8'
+-protected
+-source
+'25'
+-sourcepath
+'E:/education/introduce/laba3/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'E:/education/introduce/laba3/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'laba3 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'laba3 1.0-SNAPSHOT API'
+org.example
+E:\education\introduce\laba3\src\main\java = 1760631858536
+E:\education\introduce\laba3\target\reports\apidocs\allclasses-index.html = 1760699090051
+E:\education\introduce\laba3\target\reports\apidocs\allpackages-index.html = 1760699090058
+E:\education\introduce\laba3\target\reports\apidocs\element-list = 1760699089855
+E:\education\introduce\laba3\target\reports\apidocs\help-doc.html = 1760699090126
+E:\education\introduce\laba3\target\reports\apidocs\index-all.html = 1760699090106
+E:\education\introduce\laba3\target\reports\apidocs\index.html = 1760699090118
+E:\education\introduce\laba3\target\reports\apidocs\member-search-index.js = 1760699090066
+E:\education\introduce\laba3\target\reports\apidocs\module-search-index.js = 1760699090060
+E:\education\introduce\laba3\target\reports\apidocs\overview-tree.html = 1760699089973
+E:\education\introduce\laba3\target\reports\apidocs\package-search-index.js = 1760699090062
+E:\education\introduce\laba3\target\reports\apidocs\search.html = 1760699090114
+E:\education\introduce\laba3\target\reports\apidocs\tag-search-index.js = 1760699090069
+E:\education\introduce\laba3\target\reports\apidocs\type-search-index.js = 1760699090064
