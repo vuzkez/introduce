@@ -4,7 +4,7 @@ package org.example;
  * Класс, представляющий металлическую деталь.
  * Наследуется от абстрактного класса Detail.
  * 
- * @author Ваше имя
+ * @author Ярик
  * @version 1.0
  * @see Detail
  */
