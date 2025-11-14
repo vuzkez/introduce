@@ -4,7 +4,7 @@ package org.example;
  * Класс, представляющий материал детали.
  * Используется в композиции с классом Detail.
  * 
- * @author Ваше имя
+ * @author Ярик
  * @version 1.0
  * @see Detail
  */
