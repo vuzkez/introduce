@@ -16,10 +16,10 @@ public class GoldenDetail extends Detail {
      /**
      * Возвращает тип детали - "GoldenDetail".
      * 
-     * @return строку "Goldenetail"
+     * @return строку "GoldenDetail"
      */
     @Override
     public String getDetailType() {
-        return "Goldenl";
+        return "GoldenDetail";
     }
 }

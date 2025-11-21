@@ -5,10 +5,10 @@ import java.util.List;
 
 /**
  * Класс-репозиторий для управления коллекцией деталей.
- * Обеспечивает базовые CRUD-операции (создание, чтение, обновление, удаление).
+ * Обеспечивает базовые операции (создание, чтение, обновление, удаление).
  * 
  * @author Ярик
- * @version 1.0
+ * @version 1.1
  * @see Detail
  */
 public class DetailRepository {
@@ -32,7 +32,7 @@ public class DetailRepository {
      * @param details начальная коллекция деталей
      */
     public DetailRepository(List<Detail> details) {
-        this.details = new ArrayList<>(details);
+        this.details = details;
     }
 
     /**
@@ -104,5 +104,23 @@ public class DetailRepository {
             throw new IndexOutOfBoundsException("Индекс " + index + " выходит за границы коллекции");
         }
         return details.get(index);
+    }
+
+    /**
+     * Возвращает количество деталей в репозитории.
+     * 
+     * @return размер коллекции
+     */
+    public int size() {
+        return details.size();
+    }
+
+    /**
+     * Возвращает все детали в виде списка.
+     * 
+     * @return список всех деталей
+     */
+    public List<Detail> getAllDetails() {
+        return new ArrayList<>(details);
     }
 }
